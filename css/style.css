@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+#main-div{
+    width: 300px;
+    background: #dcc6e8;
+    padding: 30px;
+    border: 8px inset olive;
+    font-family: sans-serif;
+    margin: 5px;
+}
+h4{
+    background: blueviolet;
+    font-size: 16px;
+    text-align: left;
+    text-decoration: aliceblue;
+    padding:5px ;
+    margin-bottom: 10px;
+    margin-right: 100;
+    border-top-right-radius: 20px;
+   
+}
+#product-img{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+    font-family: 'Gill Sans';
+    transition: 0.8s;
+}
+a:hover{
+    color: rgb(27, 167, 12);
+    text-decoration: underline;
+}
+li{
+    font-weight: 400;
+    font-size: 16px;
+    margin: 10px;
+    text-align: left;
+    color: rgb(80, 78, 78);
+}
+ul{
+    border-bottom: 1px solid rgb(8, 7, 7);
+}
+h5{
+   color: rgb(192, 33, 33);
+   font-size: 30px;
+   margin:10px 20px ;
+   text-align: center;
+}
+button{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 0px;
+    font-weight: 500;
+    font-size: 18px;
+    background: rgb(78, 16, 63);
+    color: rgb(248, 247, 246);
+    border: 0;
+    border-radius: 8px;
+    font-style: solid;
+}
+.b-1:hover{
+   color: rgb(238, 242, 226);
+   background-color: rgb(25, 25, 147);
+   transition: 0.5s;
+}
+.b-2{
+    background-color:rgb(91, 134, 147)
+    
+}
+.b-2:hover{
+    background-color: rgb(8, 101, 3);
+    font-size: 16px;
+    transition: 0.5s;
+}
+.img{
+    background-image: url(https://thumbs.dreamstime.com/z/gold-woman-skin-beauty-fashion-model-girl-golden-makeup-hair-jewellery-black-background-87310205.jpg?ct=jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family:  "Dancing Script", cursive;
+    font-weight: 800;
+    font-size: 80px;
+    background-clip: text;
+    object-fit: scale-down;
+    display: inline-block;
+    color: transparent;
+    text-align: center;
+    
+    
+      
+      
+    
+}
